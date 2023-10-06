@@ -20,7 +20,7 @@ import { Set23 } from "./pages/Set23";
 
 const router = createBrowserRouter([
   {
-    path: "/one-love",
+    path: "/",
     element: <Home />,
   },
   {
