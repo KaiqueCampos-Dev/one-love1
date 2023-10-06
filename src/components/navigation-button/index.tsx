@@ -15,7 +15,7 @@ export function NavigateButton({
 }: NavigateButtonProps) {
   return (
     <Link
-      to={navigateTo ? navigateTo : "/"}
+      to={navigateTo ? navigateTo : "/one-love"}
       className={`w-28 text-center font-semibold absolute ${
         navigateTo ? "right-10" : "left-10"
       } bottom-10 p-4 ${
