@@ -1,0 +1,14 @@
+.auto-typing {
+    width: 100%;
+    animation: typing 1.5s steps(22);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        text-align: center;
+        width: 0;
+        border-right: 3px solid;
+    }
+}

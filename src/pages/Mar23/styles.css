@@ -1,0 +1,12 @@
+.appearAnimation{
+    animation: appear 5s ease-in-out infinite
+}
+
+@keyframes appear{
+    from{
+        transform: translateX(-100%);
+    }to{
+        transform: translateX(200%);
+
+    }
+}

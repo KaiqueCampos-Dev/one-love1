@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-3xl leading-loose font-bold;
+  }
+
+  p {
+    @apply leading-normal;
+  }
+
+  body, input, textarea, button {
+    font: 400 1rem Montserrat, sans-serif; 
+  }
+
+  a, button:hover {
+    cursor: pointer;
+  }
+  
+}

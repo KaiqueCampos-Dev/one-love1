@@ -1,0 +1,21 @@
+@keyframes up{
+    from{
+        /* opacity: 0; */
+        transform: translateY(600%);
+        opacity: 0.4;
+    }
+  
+    to{
+        /* opacity: 1; */
+        transform: translateY(-400%);
+        opacity: 0.1;
+    }
+  }
+  
+  .up{
+    animation-name: up;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+  }
+  
+  
